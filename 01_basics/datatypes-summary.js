@@ -1,6 +1,9 @@
 /*There are two types datatypes
 1) premitive
 2)Reference (Non primitive)*/
+
+const { userone } = require("./userone");
+
  
 // premitive
 
@@ -34,9 +37,33 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
-console.log(typeof heros);
-console.log(typeof myObj);
+// console.log(typeof anotherId);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+
+// ******************************
+
+// stack(primitive) 
+
+let myname =  "mohit"
+
+let anothername = myname
+anothername = "manu"
+
+// console.log(anothername); //manu//
+//  console.log(myname);     //mohit//
+//heap(non-primitive)
+ let newuser = {
+    email: "user@gmail.com",
+   username : "momo"
+};
+
+let newusertwo = newuser 
+newusertwo.email = "mohit@gmail.com"
+
+console.log(newusertwo.email);  //mohit@gmail.com//
+console.log(newuserone.email);  //mohit@gmail.com//
+
 
 /*Return type of variables in JavaScript
 1) Primitive Datatypes
