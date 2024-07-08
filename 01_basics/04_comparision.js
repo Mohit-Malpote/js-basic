@@ -8,7 +8,7 @@ console.log(2!=1);*/
 //  console.log("02" > 1);
 
 // console.log(null > 0);false
-// console.log(null == 0);false
+// console.log(null == 0);false   (watch this : https://chatgpt.com/c/3c879df4-d24c-4f1f-bda6-fec5ac66b2bb)
 // console.log(null >= 0); true(the Greater-than-or-equal Operator (>=), performs type coercion (ToPrimitive), with a hint type of Number, actually all the relational operators have this behavior.)
 
 /*console.log(undefined == 0);false
